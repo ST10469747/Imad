@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/checkBox15"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="391dp"
+        android:text="Mac"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/radioBo4"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+    <CheckBox
+        android:id="@+id/checkBox13"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="240dp"
+        android:text="Noodles"
+        app:layout_constraintStart_toEndOf="@+id/radioBo2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="302dp"
+        android:text="Bacon"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/radioBo1"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+    <RadioButton
+        android:id="@+id/radioBo1"
+        android:layout_width="182dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="191dp"
+        android:layout_marginBottom="68dp"
+        android:text="Morning "
+        android:textColor="@color/material_dynamic_tertiary50"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox1"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="68dp"
+        android:text="Sandwhich"
+        app:layout_constraintStart_toEndOf="@+id/radioBo3"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="1dp"
+        android:text="Cereal"
+        app:layout_constraintStart_toEndOf="@+id/radioBo1"
+        app:layout_constraintTop_toBottomOf="@id/checkBox4" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="107dp"
+        android:text="Eggs"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox4"
+        app:layout_constraintEnd_toStartOf="@+id/radioBo2"
+        app:layout_constraintStart_toEndOf="@+id/radioBo1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioBo2"
+        android:layout_width="182dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="192dp"
+        android:text="MidMorning"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox7"
+        app:layout_constraintStart_toEndOf="@+id/checkBox2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="6dp"
+        android:text="Pie"
+        app:layout_constraintStart_toEndOf="@+id/radioBo3"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox1" />
+
+    <RadioButton
+        android:id="@+id/radioBo3"
+        android:layout_width="182dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="71dp"
+        android:text="Afternoon"
+        android:textColor="@color/material_on_surface_emphasis_high_type"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/radioBo5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioBo1" />
+
+    <RadioButton
+        android:id="@+id/radioBo4"
+        android:layout_width="182dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="82dp"
+        android:text="Mid-afternoon"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="23sp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox16"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+    <RadioButton
+        android:id="@+id/radioBo5"
+        android:layout_width="182dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="71dp"
+        android:text="Dinner "
+        android:textColor="@color/material_dynamic_secondary80"
+        android:textSize="23sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioBo3" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="40dp"
+        android:text="Pizza"
+        app:layout_constraintStart_toEndOf="@+id/radioBo5"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox8" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="40dp"
+        android:text="Yogurt"
+        app:layout_constraintStart_toEndOf="@+id/radioBo6"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox12" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="15dp"
+        android:text="Chips"
+        app:layout_constraintStart_toEndOf="@+id/radioBo4"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox15" />
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="71dp"
+        android:text="Ice cream"
+        app:layout_constraintStart_toEndOf="@+id/radioBo6"
+        app:layout_constraintTop_toBottomOf="@+id/radioBo4" />
+
+    <RadioButton
+        android:id="@+id/radioBo6"
+        android:layout_width="182dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="71dp"
+        android:text="After dinner snack"
+        android:textSize="23sp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox9"
+        app:layout_constraintTop_toBottomOf="@+id/radioBo4" />
+
+    <CheckBox
+        android:id="@+id/checkBox16"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="2dp"
+        android:text="Pasta"
+        app:layout_constraintStart_toEndOf="@+id/radioBo3"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="173dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="911dp"
+        android:layout_marginBottom="4dp"
+        android:text="onClear "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioBo5" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="412dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="828dp"
+        android:text="onOrder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="106dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="66dp"
+        android:text="Burger"
+        app:layout_constraintStart_toEndOf="@+id/radioBo5"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox16" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="107dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="2dp"
+        android:text="Weatbix"
+        app:layout_constraintStart_toEndOf="@+id/radioBo2"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox13" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
